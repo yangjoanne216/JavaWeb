@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>JavaWeb2</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>servletTrain</module>
+    <module>servletTrain2</module>
+      <module>book_static</module>
+      <module>book</module>
+  </modules>
+  <version>1.0-SNAPSHOT</version>
+  <name>JavaWeb2 Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>JavaWeb2</finalName>
+  </build>
+</project>

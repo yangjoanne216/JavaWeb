@@ -1,0 +1,89 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>RequestAPIServlet</servlet-name>
+    <servlet-class>com.atguigu.servlet2.RequestAPIServlet</servlet-class>
+  </servlet>
+  
+    <servlet-mapping>
+      <servlet-name>RequestAPIServlet</servlet-name>
+      <url-pattern>/requestAPI</url-pattern>
+    </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>ParameterServlet</servlet-name>
+    <servlet-class>com.atguigu.servlet2.ParameterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ParameterServlet</servlet-name>
+    <url-pattern>/parameter</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Servlet1</servlet-name>
+    <servlet-class>com.atguigu.servlet2.Servlet1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Servlet1</servlet-name>
+    <url-pattern>/servlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Servlet2</servlet-name>
+    <servlet-class>com.atguigu.servlet2.Servlet2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Servlet2</servlet-name>
+    <url-pattern>/servlet2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ForwardC</servlet-name>
+    <servlet-class>com.atguigu.servlet2.ForwardC</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ForwardC</servlet-name>
+    <url-pattern>/forwardC</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ResponseIO</servlet-name>
+    <servlet-class>com.atguigu.servlet2.ResponseIO</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ResponseIO</servlet-name>
+    <url-pattern>/responseIO</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Response2</servlet-name>
+    <servlet-class>com.atguigu.servlet2.Response2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Response2</servlet-name>
+    <url-pattern>/response2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Response1</servlet-name>
+    <servlet-class>com.atguigu.servlet2.Response1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Response1</servlet-name>
+    <url-pattern>/response1</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>

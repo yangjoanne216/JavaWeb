@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <context-param>
+    <param-name>username</param-name>
+    <param-value>yang</param-value>
+    <param-name>password</param-name>
+    <param-value>1230</param-value>
+  </context-param>
+  <servlet>
+    <servlet-name>Helloervelt2</servlet-name>
+    <servlet-class>com.atguigu.servlet.HelloServlet2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Helloervelt2</servlet-name>
+    <url-pattern>/hello2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>com.atguigu.servlet.HelloServlet</servlet-class>
+    <init-param>
+      <param-name>username</param-name>
+      <param-value>yang</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ContextServlet</servlet-name>
+    <servlet-class>com.atguigu.servlet.ContextServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ContextServlet</servlet-name>
+    <url-pattern>/context</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ContextServlet1</servlet-name>
+    <servlet-class>com.atguigu.servlet.ContextServlet1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ContextServlet1</servlet-name>
+    <url-pattern>/context1</url-pattern>
+  </servlet-mapping>
+
+  
+</web-app>
